@@ -1,0 +1,54 @@
+/* .searchbox{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+} */
+/* .btn{
+    margin-bottom: 50px;
+ */
+ .searchbox {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background for the search box */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  }
+  
+  #city {
+    background-color: #ffffff; /* Light background for input */
+    color: #333333; /* Dark text for readability */
+    border: 2px solid #cccccc; /* Subtle border */
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    font-size: 1rem;
+  }
+  
+  #city:focus {
+    border-color: #82aaff; /* Blue highlight for focus */
+    outline: none;
+    box-shadow: 0 0 5px #82aaff;
+  }
+  
+  .btn {
+    background-color: #82aaff; /* Blue button */
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #3366cc; /* Darker blue on hover */
+  }
+  
+  .error {
+    color: #ff4d4d; /* Red for error message */
+    margin-top: 10px;
+  }
+  
+  
